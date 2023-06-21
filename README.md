@@ -101,10 +101,14 @@ You can deploy this project using:
 👤 **Author1**
 _[Jonathan]_
 
-`
+- GitHub: [@kayembajonathan](https://github.com/KAYEMBAJONATHAN)
+- LinkedIn: [@kayembajonathan](https://www.linkedin.com/in/jonathan-kayembb56247236/)
+- Twitter: [@JonathanKa97287](@JonathanKa97287)
 
 👤 **Author2**
-_[]_
+_[Abdullah]_
+
+- GitHub: [@AbdullahKhrief](https://github.com/OnlyUnknown)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -122,7 +126,7 @@ _[]_
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page]().
+Feel free to check the [issues page](https://github.com/KAYEMBAJONATHAN/Morse-code/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -146,6 +150,6 @@ If you like this project please show support by staring ⭐️.
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](./MIT.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
