@@ -28,8 +28,27 @@ def decode_char(code)
       "--.." => "Z"
     }
   
-    morse_code_map[code]
+    def decode_word(morse_word)
+      morse_chars = morse_word.split
+      decoded_word = ''
+      morse_chars.each do |morse_char|
+        decoded_char = decode_char(morse_char)
+        decoded_word += decoded_char if decoded_char
+      end
+      decoded_word
+    end
+    def decode(message)
+      morse_words = message.split('   ')
+      decoded_message = ''
+      morse_words.each do |morse_word|
+        decoded_word = decode_word(morse_word)
+        decoded_message += "#{decoded_word} " unless decoded_word.empty?
+      end
+      decoded_message.strip
+    end
   end
-  decoded_char = decode_char("...")
-  decoded_char = decode_char("--..")
-puts decoded_char  # Output: "A"
+  message = '.-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...'
+  decoder = MorseCodeDecoder.new
+  decoded_message = decoder.decode(message)
+  puts decoded_message
+
