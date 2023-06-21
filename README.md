@@ -126,7 +126,7 @@ _[Abdullah]_
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page]().
+Feel free to check the [issues page](https://github.com/KAYEMBAJONATHAN/Morse-code/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
