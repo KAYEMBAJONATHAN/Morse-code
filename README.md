@@ -101,7 +101,9 @@ You can deploy this project using:
 👤 **Author1**
 _[Jonathan]_
 
-`
+- GitHub: [@kayembajonathan](https://github.com/KAYEMBAJONATHAN)
+- LinkedIn: [@kayembajonathan](https://www.linkedin.com/in/jonathan-kayembb56247236/)
+- Twitter: [@JonathanKa97287](@JonathanKa97287)
 
 👤 **Author2**
 _[]_
