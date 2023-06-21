@@ -106,7 +106,8 @@ _[Jonathan]_
 - Twitter: [@JonathanKa97287](@JonathanKa97287)
 
 👤 **Author2**
-_[]_
+_[Abdullah]_
+- GitHub: [@AbdullahKhrief](https://github.com/OnlyUnknown)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
