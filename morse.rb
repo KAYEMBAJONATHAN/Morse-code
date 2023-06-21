@@ -1,5 +1,5 @@
-def decode_char(code)
-    morse_code_map = {
+class MorseCodeDecoder
+    MORSE_CODE_MAP = {
       ".-" => "A",
       "-..." => "B",
       "-.-." => "C",
@@ -26,7 +26,11 @@ def decode_char(code)
       "-..-" => "X",
       "-.--" => "Y",
       "--.." => "Z"
-    }
+    }.freeze
+  
+    def decode_char(code)
+      MORSE_CODE_MAP[code]
+    end
   
     def decode_word(morse_word)
       morse_chars = morse_word.split
@@ -37,6 +41,7 @@ def decode_char(code)
       end
       decoded_word
     end
+  
     def decode(message)
       morse_words = message.split('   ')
       decoded_message = ''
@@ -47,8 +52,9 @@ def decode_char(code)
       decoded_message.strip
     end
   end
+  
   message = '.-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...'
   decoder = MorseCodeDecoder.new
   decoded_message = decoder.decode(message)
   puts decoded_message
-
+  
